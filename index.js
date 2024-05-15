@@ -45,7 +45,7 @@ app.use(
 );
 app.use(
     cors({
-        origin: ["http://localhost:3001", "http://localhost:3000", process.env.CLIENT_URL, "https://eonicindia.in"],
+        origin: ["http://localhost:3001", "http://localhost:3000", process.env.CLIENT_URL, "https://eonicindia.in","https://www.eonicindia.in" ],
         credentials: true,
         methods: ["GET", "POST", "PUT", "DELETE"],
     })
